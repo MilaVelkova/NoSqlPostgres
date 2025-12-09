@@ -1,0 +1,42 @@
+-- PEOPLE & THEIR ROLES
+
+CREATE TABLE people (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
+
+-- GENRES
+
+CREATE TABLE genres (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
+
+-- KEYWORDS
+
+CREATE TABLE keywords (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
+
+-- PRODUCTION COMPANIES
+
+CREATE TABLE companies (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
+
+-- PRODUCTION COUNTRIES
+
+CREATE TABLE countries (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
+
+-- SPOKEN LANGUAGES
+
+
+CREATE TABLE languages (
+    id SERIAL PRIMARY KEY,
+    name TEXT UNIQUE
+);
